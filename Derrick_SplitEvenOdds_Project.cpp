@@ -24,14 +24,14 @@ int main()
 	linkedListIterator<int> it;
 	for (it = originalList.begin(); it != originalList.end(); ++it)
 		cout << " " << *it;
-
+	cout << endl;
 	// seperate integers
 	originalList.splitEvenOddsList(evensList, oddsList);
 
 	// print even list
 	for (it = evensList.begin(); it != evensList.end(); ++it)
 		cout << " " << *it;
-
+	cout << endl;
 	// print odd list
 	for (it = oddsList.begin(); it != oddsList.end(); ++it)
 		cout << " " << *it;
