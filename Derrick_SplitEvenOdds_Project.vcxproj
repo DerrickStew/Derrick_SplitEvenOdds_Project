@@ -131,8 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="intLinkedList.h" />
-    <ClInclude Include="linkedList.h" />
-    <ClInclude Include="unorderedLinkedList.h" />
+    <ClInclude Include="\\tsclient\C\Users\Derrick Jr\Downloads\linkedList.h" />
+    <ClInclude Include="\\tsclient\C\Users\Derrick Jr\Downloads\unorderedLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

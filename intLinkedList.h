@@ -16,15 +16,43 @@ public:
         while (current != nullptr)
         {
             // check if int is even
-            if (current->info % 2 != 0)
-                oddsList.insertLast(current->info);
+            if (current->info % 2 == 0)
+            {
+                // add int to evensList
+                if (evensList.count == 0)
+                {
+                    evensList.first = current;
+                }
+                else
+                {
+                    evensList.last->link = current;
+                }
+                evensList.last = current;
+                evensList.count++;
+                current = current->link;
+                evensList.last->link = nullptr;
+            }
             else
-                evensList.insertLast(current->info);
-            nodeType<int>* temp = current;
-            current = current->link;
-            delete temp;
-            this->count--;
+            {
+                // add int to oddsList
+                if (oddsList.count == 0)
+                {
+                    oddsList.first = current;
+                }
+                else
+                {
+                    oddsList.last->link = current;
+                }
+                oddsList.last = current;
+                oddsList.count++;
+                current = current->link;
+                oddsList.last->link = nullptr;
+            }
         }
+        // clean up list to make it empty
+        this->first = nullptr;
+        this->last = nullptr;
+        this->count = 0;
     }
 };
 

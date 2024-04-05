@@ -23,10 +23,10 @@
     <ClInclude Include="intLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="linkedList.h">
+    <ClInclude Include="\\tsclient\C\Users\Derrick Jr\Downloads\linkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="unorderedLinkedList.h">
+    <ClInclude Include="\\tsclient\C\Users\Derrick Jr\Downloads\unorderedLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
